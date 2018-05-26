@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio2", "exercicio2\exercicio2.csproj", "{EA9FEAFE-5BA6-4D0D-BD3F-0BEBA1BCB297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Dominio", "3.Dominio", "{985230E3-5D22-4C93-B5CC-BBA9E4E4A871}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Aplicacao", "2.Aplicacao", "{4C696AA8-79B9-499A-94B3-0BC3A2B30F6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infraestrutura", "4.Infraestrutura", "{9420DABC-B871-45D5-840B-2C5E353CC4CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Banco de dados", "5.Banco de dados", "{29D234C4-C928-447E-B7E4-41B84B0D4BF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA9FEAFE-5BA6-4D0D-BD3F-0BEBA1BCB297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9FEAFE-5BA6-4D0D-BD3F-0BEBA1BCB297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9FEAFE-5BA6-4D0D-BD3F-0BEBA1BCB297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9FEAFE-5BA6-4D0D-BD3F-0BEBA1BCB297}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA9FEAFE-5BA6-4D0D-BD3F-0BEBA1BCB297} = {985230E3-5D22-4C93-B5CC-BBA9E4E4A871}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EFC48DF-EBAC-47F1-BADF-CFDB4CF15127}
+	EndGlobalSection
+EndGlobal
