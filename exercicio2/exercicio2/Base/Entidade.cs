@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace exercicio2.Aplicacao
+namespace exercicio2.Base
 {
-    public class Class1
+    public abstract class Entidade
     {
+     public long Id { get; set; }
     }
 }
