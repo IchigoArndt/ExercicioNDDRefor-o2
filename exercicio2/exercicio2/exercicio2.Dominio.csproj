@@ -45,6 +45,10 @@
     <Compile Include="Exceptions\IdentifierUndefinedException.cs" />
     <Compile Include="Exceptions\NulloFieldException.cs" />
     <Compile Include="Exceptions\StringIsNullOrEmptyException.cs" />
+    <Compile Include="Features\Emprestimo\BookwitchMaximumException.cs" />
+    <Compile Include="Features\Emprestimo\BookwitchMinimumException.cs" />
+    <Compile Include="Features\Emprestimo\Emprestimo.cs" />
+    <Compile Include="Features\Emprestimo\IEmprestimoRepositorio.cs" />
     <Compile Include="Features\Livros\ILivroRepositorio.cs" />
     <Compile Include="Features\Livros\Livro.cs" />
     <Compile Include="Features\Livros\NameWithmaximumCharacterException.cs" />
