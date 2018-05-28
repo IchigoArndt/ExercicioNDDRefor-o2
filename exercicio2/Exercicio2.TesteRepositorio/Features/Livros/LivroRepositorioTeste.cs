@@ -1,8 +1,8 @@
 ﻿using exercicio2.Exceptions;
 using exercicio2.Features.Livros;
 using exercicio2.Infra.Data;
+using Exercicio2.ComumTeste;
 using Exercicio2.ComumTeste.Base;
-using Exercicio2.ComumTeste.Features.Livros;
 using FluentAssertions;
 using NUnit.Framework;
 using System;

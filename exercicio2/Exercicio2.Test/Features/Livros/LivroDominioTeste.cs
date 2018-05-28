@@ -1,6 +1,6 @@
 ﻿using exercicio2.Exceptions;
 using exercicio2.Features.Livros;
-using Exercicio2.ComumTeste.Features.Livros;
+using Exercicio2.ComumTeste;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;

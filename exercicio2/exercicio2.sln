@@ -21,13 +21,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio2.Aplicacao", "exe
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BancoExercicio2", "BancoExercicio2\BancoExercicio2.sqlproj", "{9F9D58CE-A865-4487-BD1A-E8DD11DA8A9D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Test", "6.Test", "{BCDA9595-622C-4EB4-AD2D-1E46B4D0B57E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Teste", "6.Teste", "{BCDA9595-622C-4EB4-AD2D-1E46B4D0B57E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio2.TesteDominio", "Exercicio2.Test\Exercicio2.TesteDominio.csproj", "{CD55CA67-7601-4D84-AD38-BBB1DF42644F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio2.ComumTeste", "Exercicio2.ComumTeste\Exercicio2.ComumTeste.csproj", "{36677A48-DB7B-4BC2-B696-11AC8EF58FF5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio2.TesteInfra.Data", "Exercicio2.TesteRepositorio\Exercicio2.TesteInfra.Data.csproj", "{D66E10B2-7889-45BC-B8C0-B42EFB27CA90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio2.AplicacaoTeste", "Exercicio2.AplicacaoTeste\Exercicio2.AplicacaoTeste.csproj", "{4620BC2D-BB63-45CF-9926-3B91D05503C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,18 @@ Global
 		{D66E10B2-7889-45BC-B8C0-B42EFB27CA90}.Release|x64.Build.0 = Release|Any CPU
 		{D66E10B2-7889-45BC-B8C0-B42EFB27CA90}.Release|x86.ActiveCfg = Release|Any CPU
 		{D66E10B2-7889-45BC-B8C0-B42EFB27CA90}.Release|x86.Build.0 = Release|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Debug|x64.Build.0 = Debug|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Release|x64.ActiveCfg = Release|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Release|x64.Build.0 = Release|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +168,7 @@ Global
 		{CD55CA67-7601-4D84-AD38-BBB1DF42644F} = {BCDA9595-622C-4EB4-AD2D-1E46B4D0B57E}
 		{36677A48-DB7B-4BC2-B696-11AC8EF58FF5} = {BCDA9595-622C-4EB4-AD2D-1E46B4D0B57E}
 		{D66E10B2-7889-45BC-B8C0-B42EFB27CA90} = {BCDA9595-622C-4EB4-AD2D-1E46B4D0B57E}
+		{4620BC2D-BB63-45CF-9926-3B91D05503C7} = {BCDA9595-622C-4EB4-AD2D-1E46B4D0B57E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EFC48DF-EBAC-47F1-BADF-CFDB4CF15127}

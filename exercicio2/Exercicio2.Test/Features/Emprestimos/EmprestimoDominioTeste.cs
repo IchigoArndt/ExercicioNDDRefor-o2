@@ -1,7 +1,7 @@
 ﻿using exercicio2.Exceptions;
 using exercicio2.Features.Emprestimo;
 using exercicio2.Features.Livros;
-using Exercicio2.ComumTeste.Features.Emprestimos;
+using Exercicio2.ComumTeste;
 using FluentAssertions;
 using Moq;
 using NUnit.Framework;

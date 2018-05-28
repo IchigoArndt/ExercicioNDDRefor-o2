@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio2.ComumTeste.Features.Livros
+namespace Exercicio2.ComumTeste
 {
    public static partial class ObjectMother
    {

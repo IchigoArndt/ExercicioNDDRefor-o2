@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio2.ComumTeste.Features.Emprestimos
+namespace Exercicio2.ComumTeste
 {
     public static partial class ObjectMother
     {

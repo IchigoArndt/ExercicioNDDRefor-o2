@@ -40,10 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\IService.cs" />
+    <Compile Include="Features\Emprestimos\EmprestimoService.cs" />
+    <Compile Include="Features\Emprestimos\IEmprestimoService.cs" />
+    <Compile Include="Features\Livros\ILivroService.cs" />
+    <Compile Include="Features\Livros\LivroService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Features\" />
+    <ProjectReference Include="..\exercicio2\exercicio2.Dominio.csproj">
+      <Project>{EA9FEAFE-5BA6-4D0D-BD3F-0BEBA1BCB297}</Project>
+      <Name>exercicio2.Dominio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

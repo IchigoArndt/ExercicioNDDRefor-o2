@@ -19,8 +19,8 @@ namespace exercicio2.Infra.Data.Features.Emprestimos
         public const string SqlGetById = @"Select * from TBEmprestimo as tbe where tbe.id = @Id ";
         public const string SqlGetAll =  @"Select * from TBEmprestimo";
         ///Comandos Table Secundaria
-        public const string SqlDeleteSecundaria = @"Delete from TBLivro_Emprestimo where IdEmprestimo = @Id";
-        public const string SqlInsertSecundaria = @"Insert into (IdEmprestimo,IdLivro) values (@Id,@IdLivro)";
+        public const string SqlDeleteSecundaria = @"Delete from TBLivro_Emprestimo where IdEmprestimo = @IdEmprestimo";
+        public const string SqlInsertSecundaria = @"Insert into TBLivro_Emprestimo (IdEmprestimo,IdLivro) values (@IdEmprestimo,@IdLivro)";
     
         #endregion 
         public Emprestimo Adicionar(Emprestimo entidade)
@@ -47,14 +47,14 @@ namespace exercicio2.Infra.Data.Features.Emprestimos
         public void Deletar(Emprestimo entidade)
         {
             entidade.Validate();
-            if (entidade.Livros.Count > 1)
+            if (entidade.Livros.Count >= 1)
             {
                 foreach (var item in entidade.Livros)
                 {
                     Db.Delete(SqlDeleteSecundaria, TakeSecundario(entidade, item));
                 }
-                Db.Delete(SqlDeleteSecundaria, Take(entidade));
             }
+            Db.Delete(SqlDelete, Take(entidade));
         }
         private object[] Take(Emprestimo emprestimo)
         {
@@ -78,7 +78,7 @@ namespace exercicio2.Infra.Data.Features.Emprestimos
 
         public Emprestimo BuscarPorId(long id)
         {
-            return Db.Get(SqlGetById, Make);
+            return Db.Get(SqlGetById, Make, new object[] { "@Id", id });
         }
 
         private static Func<IDataReader, Emprestimo> Make = reader =>
