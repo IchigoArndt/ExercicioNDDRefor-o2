@@ -8,8 +8,9 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Exercicio2.ComumTeste</RootNamespace>
     <AssemblyName>Exercicio2.ComumTeste</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
